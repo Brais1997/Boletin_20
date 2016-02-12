@@ -64,6 +64,46 @@ public class Libro implements Comparable<Libro> {
         }
         return true;
     }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public String getISBN() {
+        return ISBN;
+    }
+
+    public double getPrezo() {
+        return prezo;
+    }
+
+    public int getNumeroUnidades() {
+        return numeroUnidades;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
+    }
+
+    public void setPrezo(double prezo) {
+        this.prezo = prezo;
+    }
+
+    public void setNumeroUnidades(int numeroUnidades) {
+        this.numeroUnidades = numeroUnidades;
+    }
     
    
 }
