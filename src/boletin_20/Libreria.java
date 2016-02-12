@@ -32,6 +32,22 @@ public class Libreria {
           }
           return z;
          }
+ public void borrar(){
+     for(int i=0;i<lectura.size();i++){
+         if(lectura.get(i).getNumeroUnidades()<1){
+             lectura.remove(i);
+         }}}
+ public void Consultar(){
+     String busca=JOptionPane.showInputDialog("Introduce Tiluto desexado");
+     for(int i=0;i<lectura.size();i++){
+         if(lectura.get(i).getTitulo().equalsIgnoreCase(busca)){
+             JOptionPane.showMessageDialog(null,lectura.get(i).toString());
+         }
+     }
+ }        
+     
+     
+ 
  }
  
  
